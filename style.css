@@ -1,0 +1,70 @@
+body{
+    background: rgb(48, 49, 45);
+}
+.navbar{
+   background: rgb(48, 49, 45);
+   height: 50px;
+   margin-bottom: 10px;
+   /* border-bottom: 2px solid grey; */
+}
+div{
+    height: 100%;
+    /* border: 1px solid greenyellow; */
+}
+.gif{
+    border-radius: 25px;
+}
+#gifDiv{ 
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin: 0px 0px 0px 10.5px;
+    height: 250px;
+    width: 250px;
+    border: 2px solid rgb(48, 49, 45);
+    border-radius: 25px;
+  
+}
+#btnArea{
+    background: black;
+    /* border-right: 2px solid grey; */
+    overflow-y: scroll;
+}
+header{
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: rgb(48, 49, 45);
+}
+form{
+    margin-top: 25px;
+}
+#gifArea{
+    padding-top: 20px;
+    background: black;
+    /* border: 2px solid black; */
+    overflow-y: scroll;
+}
+.targetBtns{
+    display: inline;
+    margin: 5px;
+    color: black;
+    background: silver;
+    border: 5px solid rgb(48, 49, 45);
+    border-radius: 10px;
+}
+::-webkit-scrollbar{
+    background-color:  rgb(48, 49, 45);
+}
+
+
+@media screen and (max-width: 575px) {
+    #btnArea{
+        display: none;
+    }
+    #gifArea{
+        width: 100%;
+    }
+    #spacer{
+        display: none;
+    }
+  } 
